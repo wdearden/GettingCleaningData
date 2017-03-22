@@ -1,20 +1,99 @@
----
-title: "CodeBook"
-output: html_document
----
+# Code Book
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This code book summarizes the data fields in `tidy.txt`.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## IDs
 
-```{r}
-summary(cars)
-```
+* `subject` - ID of subject
+* `activity` - The type of activity performed during measurement
 
-You can also embed plots, for example:
+## Measurements
 
-```{r, echo=FALSE}
-plot(cars)
-```
+* `tBodyAccMeanX`
+* `tBodyAccMeanY`
+* `tBodyAccMeanZ`
+* `tBodyAccStdX`
+* `tBodyAccStdY`
+* `tBodyAccStdZ`
+* `tGravityAccMeanX`
+* `tGravityAccMeanY`
+* `tGravityAccMeanZ`
+* `tGravityAccStdX`
+* `tGravityAccStdY`
+* `tGravityAccStdZ`
+* `tBodyAccJerkMeanX`
+* `tBodyAccJerkMeanY`
+* `tBodyAccJerkMeanZ`
+* `tBodyAccJerkStdX`
+* `tBodyAccJerkStdY`
+* `tBodyAccJerkStdZ`
+* `tBodyGyroMeanX`
+* `tBodyGyroMeanY`
+* `tBodyGyroMeanZ`
+* `tBodyGyroStdX`
+* `tBodyGyroStdY`
+* `tBodyGyroStdZ`
+* `tBodyGyroJerkMeanX`
+* `tBodyGyroJerkMeanY`
+* `tBodyGyroJerkMeanZ`
+* `tBodyGyroJerkStdX`
+* `tBodyGyroJerkStdY`
+* `tBodyGyroJerkStdZ`
+* `tBodyAccMagMean`
+* `tBodyAccMagStd`
+* `tGravityAccMagMean`
+* `tGravityAccMagStd`
+* `tBodyAccJerkMagMean`
+* `tBodyAccJerkMagStd`
+* `tBodyGyroMagMean`
+* `tBodyGyroMagStd`
+* `tBodyGyroJerkMagMean`
+* `tBodyGyroJerkMagStd`
+* `fBodyAccMeanX`
+* `fBodyAccMeanY`
+* `fBodyAccMeanZ`
+* `fBodyAccStdX`
+* `fBodyAccStdY`
+* `fBodyAccStdZ`
+* `fBodyAccMeanFreqX`
+* `fBodyAccMeanFreqY`
+* `fBodyAccMeanFreqZ`
+* `fBodyAccJerkMeanX`
+* `fBodyAccJerkMeanY`
+* `fBodyAccJerkMeanZ`
+* `fBodyAccJerkStdX`
+* `fBodyAccJerkStdY`
+* `fBodyAccJerkStdZ`
+* `fBodyAccJerkMeanFreqX`
+* `fBodyAccJerkMeanFreqY`
+* `fBodyAccJerkMeanFreqZ`
+* `fBodyGyroMeanX`
+* `fBodyGyroMeanY`
+* `fBodyGyroMeanZ`
+* `fBodyGyroStdX`
+* `fBodyGyroStdY`
+* `fBodyGyroStdZ`
+* `fBodyGyroMeanFreqX`
+* `fBodyGyroMeanFreqY`
+* `fBodyGyroMeanFreqZ`
+* `fBodyAccMagMean`
+* `fBodyAccMagStd`
+* `fBodyAccMagMeanFreq`
+* `fBodyBodyAccJerkMagMean`
+* `fBodyBodyAccJerkMagStd`
+* `fBodyBodyAccJerkMagMeanFreq`
+* `fBodyBodyGyroMagMean`
+* `fBodyBodyGyroMagStd`
+* `fBodyBodyGyroMagMeanFreq`
+* `fBodyBodyGyroJerkMagMean`
+* `fBodyBodyGyroJerkMagStd`
+* `fBodyBodyGyroJerkMagMeanFreq`
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## Activity Labels
+
+* `WALKING`
+* `WALKING_UPSTAIRS`
+* `WALKING_DOWNSTAIRS`
+* `SITTING`
+* `STANDING`
+* `LAYING`
