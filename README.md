@@ -1,5 +1,5 @@
-## Getting and Cleaning Data - Project
-# Johns Hopkins Coursera R Specialization
+# Getting and Cleaning Data - Project
+## Johns Hopkins Coursera R Specialization
 
 This is the course project for the Getting and Cleaning Data Coursera course.
 The R script, `run_analysis.R`, does the following:
